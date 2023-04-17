@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "name": "Metal",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/metal.png",
+        "is_primitive": true,
+        "cost": []
+    },
+    {
+        "id": 2,
+        "name": "Wood",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/wood.png",
+        "is_primitive": true,
+        "cost": []
+    },
+    {
+        "id": 3,
+        "name": "Plastic",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/plastic.png",
+        "is_primitive": true,
+        "cost": []
+    },
+    {
+        "id": 4,
+        "name": "Seeds",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/seeds.png",
+        "is_primitive": true,
+        "cost": []
+    },
+    {
+        "id": 5,
+        "name": "Minerals",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/minerals.png",
+        "is_primitive": true,
+        "cost": []
+    },
+    {
+        "id": 6,
+        "name": "Chemicals",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/chemicals.png",
+        "is_primitive": true,
+        "cost": []
+    },
+    {
+        "id": 7,
+        "name": "Textiles",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/textiles.png",
+        "is_primitive": true,
+        "cost": []
+    },
+    {
+        "id": 8,
+        "name": "Sugar and Spices",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/sugarspices.png",
+        "is_primitive": true,
+        "cost": []
+    },
+    {
+        "id": 9,
+        "name": "Glass",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/glass.png",
+        "is_primitive": true,
+        "cost": []
+    },
+    {
+        "id": 10,
+        "name": "Animal Feed",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/animalfeed.png",
+        "is_primitive": true,
+        "cost": []
+    },
+    {
+        "id": 11,
+        "name": "Electrical Components",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/electricalcomponents.png",
+        "is_primitive": true,
+        "cost": []
+    },
+    {
+        "id": 11,
+        "name": "Nails",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/nails.png",
+        "is_primitive": false,
+        "cost": []
+    },
+    {
+        "id": 12,
+        "name": "Planks",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/planks.png",
+        "is_primitive": false,
+        "cost": []
+    },
+    {
+        "id": 13,
+        "name": "Bricks",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/bricks.png",
+        "is_primitive": false,
+        "cost": []
+    },
+    {
+        "id": 14,
+        "name": "Cement",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/cement.png",
+        "is_primitive": false,
+        "cost": []
+    },
+    {
+        "id": 15,
+        "name": "Glue",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/glue.png",
+        "is_primitive": false,
+        "cost": []
+    },
+    {
+        "id": 16,
+        "name": "Paint",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/paintbucket.png",
+        "is_primitive": false,
+        "cost": []
+    },
+    {
+        "id": 18,
+        "name": "Hammer",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/hammer.png",
+        "is_primitive": false,
+        "cost": []
+    },
+    {
+        "id": 19,
+        "name": "Measuring Tape",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/measuringtape.png",
+        "is_primitive": false,
+        "cost": []
+    },
+    {
+        "id": 20,
+        "name": "Shovel",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/shovel.png",
+        "is_primitive": false,
+        "cost": []
+    },
+    {
+        "id": 21,
+        "name": "Cooking Utensils",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/cookingutensils.png",
+        "is_primitive": false,
+        "cost": []
+    },
+    {
+        "id": 22,
+        "name": "Ladder",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/ladder.png",
+        "is_primitive": false,
+        "cost": []
+    },
+    {
+        "id": 23,
+        "name": "Drill",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/drill.png",
+        "is_primitive": false,
+        "cost": []
+    }
+]

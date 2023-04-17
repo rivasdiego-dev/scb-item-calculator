@@ -2,21 +2,21 @@ import { useEffect, useState } from "react";
 import { MaterialCard } from "./Material";
 
 export default function AllMaterialsPanel() {
-  const [materialData, setMaterialData] = useState([]); // Initialize state for material data
+  const [materialsData, setmaterialsData] = useState([]); // Initialize state for all the items
 
   useEffect(() => {
-    // Fetch data and update state
-    fetch("materials/industrial.json")
+    // Getting the industrial items as an array of objects
+    fetch("materials/material-info.json")
       .then((response) => response.json())
-      .then((data) => setMaterialData(data))
-      .catch((error) => console.error("Error fetching material data:", error));
+      .then((data) => setmaterialsData(data))
+      .catch((error) => console.error("Error fetching items data:", error));
   }, []); // Empty array as second argument to useEffect to run only once on component mount
 
   return (
     <section className="overflow-y-scroll flex flex-wrap justify-evenly gap-5 p-4 max-h-full min-h-full bg-neutral-900 shadow-md shadow-black rounded-xl">
-      {/* Map over materialData to render MaterialCard components */}
-      {materialData.map((item) => (
-        <MaterialCard key={item.id} materialInfo={item} /> // Add a unique key prop for each MaterialCard
+      {/* Map over each item in the array fetched to render in MaterialCard components */}
+      {materialsData.map((item) => (
+        <MaterialCard key={item.id} materialInfo={item} />
       ))}
     </section>
   );
