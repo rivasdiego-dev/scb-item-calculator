@@ -1,15 +1,15 @@
-export const MaterialCard = ({ name, url }) => {
+import { useDrag } from "react-dnd";
 
-    let id = 2, materialName = 'Wood';
-
+export const MaterialCard = ({materialInfo}) => {
+    console.log(materialInfo);
   return (
     <div className="bg-neutral-800 h-fit text-center p-4 rounded-md shadow-md shadow-black">
       <img
-        className="border h-20 w-20 m-auto"
-        src={`/materials/industrial/${id}.jpg`}
-        alt="Image"
+        className="h-20 w-20 m-auto"
+        src={materialInfo.url_image}
+        alt={`${materialInfo.name}_image`}
       />
-      <p> {materialName} </p>
+      <p> {materialInfo.name} </p>
     </div>
   );
 };

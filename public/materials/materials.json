@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Metal",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/metal.png",
+        "cost": []
+    },
+    {
+        "name": "Wood",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/wood.png",
+        "cost": []
+    },
+    {
+        "name": "Plastic",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/plastic.png",
+        "cost": []
+    },
+    {
+        "name": "Seeds",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/seeds.png",
+        "cost": []
+    },
+    {
+        "name": "Minerals",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/minerals.png",
+        "cost": []
+    },
+    {
+        "name": "Chemicals",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/chemicals.png",
+        "cost": []
+    },
+    {
+        "name": "Textiles",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/textiles.png",
+        "cost": []
+    },
+    {
+        "name": "Sugar and Spices",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/sugarspices.png",
+        "cost": []
+    },
+    {
+        "name": "Glass",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/glass.png",
+        "cost": []
+    },
+    {
+        "name": "Animal Feed",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/animalfeed.png",
+        "cost": []
+    },
+    {
+        "name": "Electrical Components",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/electricalcomponents.png",
+        "cost": []
+    }
+]
