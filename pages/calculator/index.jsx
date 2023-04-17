@@ -22,7 +22,8 @@ export default function Home() {
           </h1>
         </header>
         <section className="grid gap-12 h-4/5 p-4 grid-cols-2 max-h-full">
-          <div className="row-span-2 min-h-full">
+          
+          <div id="Building" className="row-span-2 min-h-full">
             <div className={`p-1 ${roboto_c.className} flex items-center`}>
               <p>Building Materials</p>
               <img
@@ -34,7 +35,7 @@ export default function Home() {
               <AllMaterialsPanel />
           </div>
 
-          <div>
+          <div id="Required">
             <div className={`p-1 ${roboto_c.className} flex items-center`}>
               <p>Building Materials Required to Upgrade</p>
               <img
@@ -46,7 +47,7 @@ export default function Home() {
             <section className="h-full bg-neutral-900 shadow-md shadow-black rounded-xl"></section>
           </div>
 
-          <div>
+          <div id="Result">
             <div className={`p-1 ${roboto_c.className} flex items-center`}>
               <p>Industrial Materials Needed</p>
               <img

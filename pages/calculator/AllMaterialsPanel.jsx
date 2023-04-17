@@ -6,7 +6,7 @@ export default function AllMaterialsPanel() {
 
   useEffect(() => {
     // Fetch data and update state
-    fetch("materials/materials.json")
+    fetch("materials/industrial.json")
       .then((response) => response.json())
       .then((data) => setMaterialData(data))
       .catch((error) => console.error("Error fetching material data:", error));
