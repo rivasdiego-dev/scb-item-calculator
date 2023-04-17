@@ -1,55 +1,66 @@
 [
     {
+        "id": 1,
         "name": "Metal",
         "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/metal.png",
         "cost": []
     },
     {
+        "id": 2,
         "name": "Wood",
         "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/wood.png",
         "cost": []
     },
     {
+        "id": 3,
         "name": "Plastic",
         "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/plastic.png",
         "cost": []
     },
     {
+        "id": 4,
         "name": "Seeds",
         "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/seeds.png",
         "cost": []
     },
     {
+        "id": 5,
         "name": "Minerals",
         "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/minerals.png",
         "cost": []
     },
     {
+        "id": 6,
         "name": "Chemicals",
         "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/chemicals.png",
         "cost": []
     },
     {
+        "id": 7,
         "name": "Textiles",
         "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/textiles.png",
         "cost": []
     },
     {
+        "id": 8,
         "name": "Sugar and Spices",
         "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/sugarspices.png",
         "cost": []
     },
     {
+        "id": 9,
         "name": "Glass",
         "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/glass.png",
         "cost": []
     },
     {
+        "id": 10,
         "name": "Animal Feed",
         "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/animalfeed.png",
         "cost": []
     },
     {
+        "id": 11,
         "name": "Electrical Components",
         "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/electricalcomponents.png",
         "cost": []
