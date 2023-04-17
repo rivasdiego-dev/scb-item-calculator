@@ -1,5 +1,6 @@
 import { Roboto_Condensed, Ubuntu_Condensed } from "next/font/google";
 import AllMaterialsPanel from "./AllMaterialsPanel";
+import RequiredMaterialsPanel from "./RequiredMaterialsPanel";
 
 const roboto_c = Roboto_Condensed({
   weight: ["300", "400", "700"],
@@ -35,7 +36,7 @@ export default function Home() {
               <AllMaterialsPanel />
           </div>
 
-          <div id="Required">
+          <div id="Required" className="row-span-1 min-h-full">
             <div className={`p-1 ${roboto_c.className} flex items-center`}>
               <p>Building Materials Required to Upgrade</p>
               <img
@@ -44,10 +45,10 @@ export default function Home() {
                 src={"/upgrade.webp"}
               />
             </div>
-            <section className="h-full bg-neutral-900 shadow-md shadow-black rounded-xl"></section>
+            <RequiredMaterialsPanel />
           </div>
 
-          <div id="Result">
+          <div id="Result" className="row-span-1 min-h-full">
             <div className={`p-1 ${roboto_c.className} flex items-center`}>
               <p>Industrial Materials Needed</p>
               <img
