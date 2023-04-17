@@ -1,7 +1,6 @@
 import { useDrag } from "react-dnd";
 
 export const MaterialCard = ({materialInfo}) => {
-    console.log(materialInfo);
   return (
     <div className="bg-neutral-800 h-fit text-center p-4 rounded-md shadow-md shadow-black">
       <img
