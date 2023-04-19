@@ -2,12 +2,15 @@ import { useState } from "react";
 import { useDrop } from "react-dnd";
 import { MaterialCard } from "./Material";
 
-export default function RequiredMaterialsPanel() {
+export default function RequiredMaterialsPanel(props) {
   const [requiredMaterials, setRequiredMaterials] = useState([]);
   const [{ isOver }, dropRef] = useDrop({
     accept: "material",
-    drop: (item) =>
-      setRequiredMaterials((requiredMaterials) => [...requiredMaterials, item]),
+    drop: (item) =>{
+      const newRequiredMaterials = [...requiredMaterials, item];
+      setRequiredMaterials(newRequiredMaterials);
+      props.setRequiredMaterialsArray(newRequiredMaterials);
+    },
   });
 
   return (

@@ -3,7 +3,7 @@ import { useDrag } from "react-dnd";
 export const MaterialCard = ({materialInfo}) => {
     const [{ isDragging }, dragRef] = useDrag({
         type: 'material',
-        item: {id: materialInfo.id, name: materialInfo.name, url_image: materialInfo.url_image}
+        item: {id: materialInfo.id, name: materialInfo.name, url_image: materialInfo.url_image, is_primitive: materialInfo.is_primitive, cost: materialInfo.cost}
     })
 
 
