@@ -6,7 +6,7 @@ export default function RequiredMaterialsPanel(props) {
   const [requiredMaterials, setRequiredMaterials] = useState([]);
   const [{ isOver }, dropRef] = useDrop({
     accept: "material",
-    drop: (item) =>{
+    drop: (item) => {
       const newRequiredMaterials = [...requiredMaterials, item];
       setRequiredMaterials(newRequiredMaterials);
       props.setRequiredMaterialsArray(newRequiredMaterials);

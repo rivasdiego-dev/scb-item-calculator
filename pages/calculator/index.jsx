@@ -12,25 +12,31 @@ const ubuntu_c = Ubuntu_Condensed({
   subsets: ["latin"],
 });
 
-
 function total_materials_required(materials_requested) {
   return materials_requested.reduce((acc, element) => {
     const costs = element.cost;
     for (const key in costs)
-      acc[key] ? acc[key] += costs[key] : acc[key] = costs[key];
+      acc[key] ? (acc[key] += costs[key]) : (acc[key] = costs[key]);
     return acc;
   }, {});
 }
 
 export default function Home() {
-  
   const [array_of_required_materials, setRequiredMaterialsArray] = useState([]);
-  console.log(array_of_required_materials, total_materials_required(array_of_required_materials));
+  console.log(
+    array_of_required_materials,
+    total_materials_required(array_of_required_materials)
+  );
 
   return (
     <main className="relative min-h-screen bg-[url(/bg.jpg)] bg-cover bg-center text-white">
       <span className="absolute h-full w-full p-12 backdrop-brightness-[0.2] backdrop-blur-sm">
-        <a className="absolute rounded-full bg-white hover:bg-neutral-400 transition-all" href="/"><img src="/arrow_back.svg" alt="back"></img></a>
+        <a
+          className="absolute rounded-full bg-white hover:bg-neutral-400 transition-all"
+          href="/"
+        >
+          <img src="/arrow_back.svg" alt="back"></img>
+        </a>
         <header>
           <h1
             className={`${ubuntu_c.className} text-6xl bg-transparent text-center p-4`}
@@ -39,7 +45,6 @@ export default function Home() {
           </h1>
         </header>
         <section className="grid gap-12 h-4/5 p-4 grid-cols-2 max-h-full">
-          
           <div id="Building" className="row-span-2 min-h-full">
             <div className={`p-1 ${roboto_c.className} flex items-center`}>
               <p>Building Materials</p>
@@ -48,8 +53,8 @@ export default function Home() {
                 alt="industry-icon"
                 src={"/commercial.webp"}
               />
-            </div>            
-              <AllMaterialsPanel />
+            </div>
+            <AllMaterialsPanel />
           </div>
 
           <div id="Required" className="row-span-1 min-h-full">
@@ -61,7 +66,9 @@ export default function Home() {
                 src={"/upgrade.webp"}
               />
             </div>
-            <RequiredMaterialsPanel setRequiredMaterialsArray={setRequiredMaterialsArray}/>
+            <RequiredMaterialsPanel
+              setRequiredMaterialsArray={setRequiredMaterialsArray}
+            />
           </div>
 
           <div id="Result" className="row-span-1 min-h-full">
