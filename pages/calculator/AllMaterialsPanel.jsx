@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import { MaterialCard } from "./Material";
 
-export default function AllMaterialsPanel() {
-  const [materialsData, setmaterialsData] = useState([]); // Initialize state for all the items
+export default function AllMaterialsPanel(props) {
+  const [materialsData, setMaterialsData] = useState([]); // Initialize state for all the items
 
   useEffect(() => {
     // Getting the industrial items as an array of objects
     fetch("materials/material-info.json")
       .then((response) => response.json())
-      .then((data) => setmaterialsData(data))
+      .then((data) => {setMaterialsData(data);props.setAllMaterialsArray(data)})
       .catch((error) => console.error("Error fetching items data:", error));
   }, []); // Empty array as second argument to useEffect to run only once on component mount
 

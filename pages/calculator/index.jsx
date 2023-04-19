@@ -15,17 +15,23 @@ const ubuntu_c = Ubuntu_Condensed({
 function total_materials_required(materials_requested) {
   return materials_requested.reduce((acc, element) => {
     const costs = element.cost;
-    for (const key in costs)
-      acc[key] ? (acc[key] += costs[key]) : (acc[key] = costs[key]);
+    for (const key in costs){
+        acc[key] ? (acc[key] += costs[key]) : (acc[key] = costs[key]); 
+    }
     return acc;
   }, {});
 }
 
+
+
 export default function Home() {
-  const [array_of_required_materials, setRequiredMaterialsArray] = useState([]);
+  const [requiredMaterialArray, setRequiredMaterialsArray] = useState([]);
+  const [allMaterialsArray ,setAllMaterialsArray] = useState([]);
+
   console.log(
-    array_of_required_materials,
-    total_materials_required(array_of_required_materials)
+    requiredMaterialArray,
+    total_materials_required(requiredMaterialArray),
+    allMaterialsArray
   );
 
   return (
@@ -54,7 +60,7 @@ export default function Home() {
                 src={"/commercial.webp"}
               />
             </div>
-            <AllMaterialsPanel />
+            <AllMaterialsPanel setAllMaterialsArray = {setAllMaterialsArray}/>
           </div>
 
           <div id="Required" className="row-span-1 min-h-full">

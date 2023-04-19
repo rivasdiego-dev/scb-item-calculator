@@ -18,7 +18,7 @@ export const MaterialCard = ({ materialInfo }) => {
   return (
     <div
       ref={dragRef}
-      className="bg-neutral-800 h-fit text-center p-4 rounded-md shadow-md shadow-black"
+      className="bg-neutral-800 h-fit text-center p-4 rounded-md shadow-md shadow-black hover:cursor-grab"
     >
       <img
         className="h-20 w-20 m-auto"
