@@ -36,7 +36,7 @@ export default function Home() {
           </Link>
 
           <Link
-            href={"/calculator"}
+            href={"/how-to-use"}
             className="text-center transition-all transform-gpu hover:scale-110"
           >
             <p
