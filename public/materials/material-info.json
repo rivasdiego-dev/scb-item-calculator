@@ -218,5 +218,188 @@
             "Plastic": 2,
             "Electrical Components": 1
         }
+    },
+    {
+        "id": 24,
+        "name": "Vegetables",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/vegetables.png",
+        "is_primitive": false,
+        "cost": {
+            "Seeds": 2
+        }
+    },
+    {
+        "id": 25,
+        "name": "Flour Bag",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/flourbag.png",
+        "is_primitive": false,
+        "cost": {
+            "Seeds": 2,
+            "Textiles": 2
+        }
+    },
+    {
+        "id": 26,
+        "name": "Fruit and Berries",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/fruitberries.png",
+        "is_primitive": false,
+        "cost": {
+            "Seeds": 2,
+            "Tree Saplings": 1
+        }
+    },
+    {
+        "id": 27,
+        "name": "Cream",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/cream.png",
+        "is_primitive": false,
+        "cost": {
+            "Animal Feed":1
+        }
+    },
+    {
+        "id": 28,
+        "name": "Corn",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/corn.png",
+        "is_primitive": false,
+        "cost": {
+            "Minerals":1,
+            "Seeds":4
+        }
+    },
+    {
+        "id": 29,
+        "name": "Cheese",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/cheese.png",
+        "is_primitive": false,
+        "cost": {
+            "Animal Feed":2
+        }
+    },
+    {
+        "id": 30,
+        "name": "Beef",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/beef.png",
+        "is_primitive": false,
+        "cost": {
+            "Animal Feed": 3
+        }
+    },
+    {
+        "id": 31,
+        "name": "Chairs",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/chairs.png",
+        "is_primitive": false,
+        "cost": {
+            "Wood":2,
+            "Nails":1,
+            "Hammer":1
+        }
+    },
+    {
+        "id": 32,
+        "name": "Tables",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/tables.png",
+        "is_primitive": false,
+        "cost": {
+            "Nails":2,
+            "Planks":1,
+            "Hammer":1
+        }
+    },
+    {
+        "id": 33,
+        "name": "Home Textiles",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/hometextiles.png",
+        "is_primitive": false,
+        "cost": {
+            "Textiles":2,
+            "Measuring Tape":1
+        }
+    },
+    {
+        "id": 34,
+        "name": "Cupboard",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/cupboard.png",
+        "is_primitive": false,
+        "cost": {
+            "Glass":2,
+            "Planks":2,
+            "Paint":1
+        }
+    },
+    {
+        "id": 35,
+        "name": "Couch",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/couch.png",
+        "is_primitive": false,
+        "cost": {
+            "Textiles":3,
+            "Glue":1,
+            "Drill":1
+        }
+    },
+    {
+        "id": 36,
+        "name": "Grass",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/grass.png",
+        "is_primitive": false,
+        "cost": {
+            "Seeds":1,
+            "Shovel":1
+        }
+    },
+    {
+        "id": 37,
+        "name": "Tree Saplings",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/treesaplings.png",
+        "is_primitive": false,
+        "cost": {
+            "Seeds":2,
+            "Shovel":1
+        }
+    },
+    {
+        "id": 38,
+        "name": "Garden Furniture",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/gardenfurniture.png",
+        "is_primitive": false,
+        "cost": {
+            "Plastic":2,
+            "Textiles":2,
+            "Planks":2
+        }
+    },
+    {
+        "id": 39,
+        "name": "Fire Pit",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/firepit.png",
+        "is_primitive": false,
+        "cost": {
+            "Bricks":2,
+            "Cement":2,
+            "Shovel":1
+        }
+    },
+    {
+        "id": 40,
+        "name": "Lawn Mower",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/lawnmower.png",
+        "is_primitive": false,
+        "cost": {
+            "Metal":3,
+            "Electrical Components":1,
+            "Paint":1
+        }
+    },
+    {
+        "id": 41,
+        "name": "Garden Gnomes",
+        "url_image": "https://scbuildit.hubsinfo.net/images/icons/production-item-icons/gardengnomes.png",
+        "is_primitive": false,
+        "cost": {
+            "Cement":2,
+            "Glue":1
+        }
     }
 ]
